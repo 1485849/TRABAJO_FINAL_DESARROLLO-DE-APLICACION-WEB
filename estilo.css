@@ -179,9 +179,11 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: .3s;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    transition: 3s;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: #2affd4;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -196,7 +198,7 @@ html{
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: #fffb16;
     position: relative;
     z-index: 10;
 }
