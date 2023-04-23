@@ -70,13 +70,21 @@ html{
     display: flex;
     align-items: center;
 }
-.inicio.contenido-banner{
+.inicio .contenido-banner{
     padding: 20px;
-    background-color: #1e2326;
+    background-color: #284758;
     max-width: 350px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #42f5d1;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
 }
 
 
