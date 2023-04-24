@@ -26,7 +26,7 @@ html{
     max-width: 1100px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-conten t: space-between;
     align-items: center;
     padding: 15px;
 }
@@ -214,6 +214,30 @@ html{
 }
 .sobremi button:hover .overlay{
     width: 100%;
+}
+/* SECCION SKILLS*/
+
+.skill{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 10px;
+}
+.skill .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.skill h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.skill .fila{
+    display: flex;
+}
+.skill .fila .col{
+    width: 50%;
+    padding: 0 20px;
 }
 
 
