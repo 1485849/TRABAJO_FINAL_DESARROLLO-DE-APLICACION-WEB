@@ -33,7 +33,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #f13cf1;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -80,7 +80,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #42f5d1;
+    border: 10px solid #b92694;
     display: block;
     width: 80%;
     margin: auto;
@@ -96,10 +96,10 @@ html{
     font-weight: normal;
 }
 .inicio .contenido-banner .redes a{
-    color: #a6ff32;
+    color: #1ce4c3;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #f7e932;
+    border: 1px solid #c90550;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -108,8 +108,10 @@ html{
     font-size: 20px;
     transition: .3s;
 }
+
+
 .inicio .contenido-banner .redes a:hover{
-    background-color: #ffffff;
+    background-color: #f06767;
 }
 .sobremi{
     background-color: #1e2326;
@@ -168,6 +170,7 @@ html{
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    color: #e433af;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
@@ -183,7 +186,7 @@ html{
 }
 
 .sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #2affd4;
+    background-color: #73f0b5;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -447,6 +450,128 @@ html{
     bottom: 4px;
 }
 
+/*seccion datos*/
+
+.datos {
+    background-image: url(img/contact_bg.png);
+    background-color: #1e2326;
+    color: #ffffff;
+    padding: 50px 0;
+}
+.datos .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.datos h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.datos .fila{
+    display: flex;
+}
+.datos .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.datos .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252A2E;
+    color: #ffffff;
+    font-size: 18px;
+}
+.datos button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fffc3a;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.datos button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.datos button:hover .overlay{
+    width: 100%;
+}
+.datos .col img{
+    width: 100%;
+}
+.datos .col .info{
+    position: absolute;
+    top: 40%;
+    background-color: #252A2E;
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.datos .col .info ul{
+    list-style: none;
+}
+.datos .col .info ul li{
+    margin-bottom: 20px;
+}
+.datos .col .info ul li i{
+    color: #1CB698;
+    display: inline-block;
+    margin-right: 20px;
+}
+footer{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #fae73d;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
 
 
 
