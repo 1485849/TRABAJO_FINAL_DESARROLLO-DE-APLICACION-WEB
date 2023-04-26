@@ -124,7 +124,7 @@ html{
 }
 .sobremi h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'roboto';
     text-align: center;
     padding: 20px 0;
 
@@ -572,6 +572,9 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+
+
+
 
 
 
